@@ -2,7 +2,8 @@
 
 Overview
 This project is a database management system for a public library. The system is designed to efficiently manage library resources such as books, magazines, e-books, audiobooks, and other materials. It also handles membership information, borrowing and returning processes, and generates reports for analytics. The project uses PostgreSQL for database implementation and focuses on database design, querying, and manipulation.
-Features:
+
+**Features:**
 •	Materials Management: Tracks materials like books, magazines, e-books, and audiobooks.
 •	Membership Management: Manages member details, including borrowing history.
 •	Borrowing System: Allows members to borrow materials, with tracking of borrow and return dates.
@@ -13,23 +14,25 @@ Entities and Relationships:
 •	Genres: Categorizes materials by genre.
 •	Members & Staff: Manages member and staff details, including borrow histories and job titles.
 •	Borrow Transactions: Stores borrowing details for materials.
-Database Schema
+
+**Database Schema**
 ER Diagram:
 Include the Entity-Relationship (ER) diagram here that outlines the relationships between the various entities in the system. You can either attach an image of the diagram or include it as a link.
 Tables:
-•	Material: Stores information on each library material.
-•	Catalog: Stores catalog details of materials.
+  **Material**: Stores information on each library material.
+  **Catalog**: Stores catalog details of materials.
 •	Genre: Represents genres for materials.
 •	Borrow: Manages the borrowing transactions.
 •	Author: Stores information about authors.
 •	Authorship: Represents the relationship between authors and materials.
 •	Member: Stores member details.
 •	Staff: Stores staff details.
-Setup
+
 Requirements:
 •	PostgreSQL (version 12+)
 •	SQL Client (e.g., pgAdmin, DBeaver)
 •	A text editor (e.g., VSCode, Sublime Text)
+
 Usage
 Common Queries
 Here are some example queries you can use to interact with the library management system:
@@ -56,14 +59,16 @@ Example Usage of System:
 •	A library staff member can check out materials for a member.
 •	The system will track borrowing dates and due dates.
 •	Reports can be generated to analyze library usage, such as which books are borrowed the most or which genres are the most popular.
-Tests
+
+**Tests**
 The system has been tested with sample data to ensure proper functionality. Below is a list of test queries:
 •	Query 1: Check materials that are currently available in the library.
 •	Query 2: Identify materials that are overdue.
 •	Query 3: Display the top 10 most borrowed materials.
 •	Query 4: Count the number of books written by a specific author.
 •	Query 5: List materials borrowed in a specific date range.
-Documentation
+
+**Documentation**
 The project includes the following documentation:
 •	ER Diagram: Visual representation of the database schema.
 •	SQL Code: DDL (Data Definition Language) and DML (Data Manipulation Language) queries used for database creation and data population.
