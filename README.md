@@ -1,4 +1,5 @@
-Library Management System (CS504 Project)
+**Library Management System (CS504 Project)**
+
 Overview
 This project is a database management system for a public library. The system is designed to efficiently manage library resources such as books, magazines, e-books, audiobooks, and other materials. It also handles membership information, borrowing and returning processes, and generates reports for analytics. The project uses PostgreSQL for database implementation and focuses on database design, querying, and manipulation.
 Features:
